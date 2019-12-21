@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wxr_demo?serverTimezone=UTC
+    username: root
+    password: ontime0408
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+logging:
+  config: classpath:logback.xml
+  level:
+    root: debug
